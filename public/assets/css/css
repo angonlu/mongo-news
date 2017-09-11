@@ -16,27 +16,19 @@ p {
     width: 50%;
 }
 
-/*.jumbotron {
-	overflow: hidden;
-    background-size: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 400px;
-    width: 100%;
-}*/
 
-.panel-heading.row {
+/*.panel-heading {
 	width: 100%;
     margin-left: 0%;
-}
+}*/
 
-.panel-primary {
+/*.panel-primary {
     height: 135px;
-}
+}*/
 
-#savenote {
+/*#savenote {
     display: block;
-}
+}*/
 
 /* 
   These rules take effect when the browser's width

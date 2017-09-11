@@ -50,7 +50,7 @@ router.post("/scrape", function(req, res) {
     // Make emptry array for temporarily saving and showing scraped Articles.
     var scrapedArticles = {};
     // Now, we grab every h2 within an article tag, and do the following:
-    $("article h2").each(function(i, element) {
+    $(".story-heading").each(function(i, element) {
 
       // Save an empty result object
       var result = {};
@@ -66,7 +66,7 @@ router.post("/scrape", function(req, res) {
 
     });
 
-    console.log("Scraped Articles object built nicely: " + scrapedArticles);
+    console.log("Scraped Articles");
 
     var hbsArticleObject = {
         articles: scrapedArticles
