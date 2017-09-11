@@ -62,6 +62,7 @@ router.post("/scrape", function(req, res) {
       
       result.link = $(this).children("a").attr("href");
 
+
       scrapedArticles[i] = result;
 
     });
